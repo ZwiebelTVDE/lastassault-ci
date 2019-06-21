@@ -1,2 +1,2 @@
-# lastassault-ci
-lastassault-ci
+# lastassault-ng-ci
+lastassault-ng-ci
