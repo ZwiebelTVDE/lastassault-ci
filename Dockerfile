@@ -11,7 +11,7 @@ ARG USER_ID=1000
 WORKDIR $APP_DIR
 #EXPOSE 4200
 
-RUN apt update && apt rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN apt-get update && apt rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ARG NG_CLI_VERSION=8.0.3
 LABEL angular-cli=$NG_CLI_VERSION node=$NODE_VERSION
